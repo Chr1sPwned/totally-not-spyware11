@@ -37,3 +37,8 @@ The issue is that the values that everything depends on have changed hundreds of
 - The entire frontend, website, etc.: [FoxletFox](https://twitter.com/FoxletFox)
 - WebKit exploit: [Niklas Baumstark](https://twitter.com/_niklasb/), with part of [Samuel Groß](https://twitter.com/5aelo/)' code patched in.
 - Everyone credited for the [DoubleH3lix](https://github.com/Siguza/doubleH3lix) and [Meridian](https://github.com/PsychoTea/MeridianJB) jailbreaks.
+
+## TODO (iOS 11)
+- Fix whatever is broken
+- test test test
+- Release?
