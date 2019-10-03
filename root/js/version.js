@@ -1,6 +1,7 @@
 if(
-    !/\b10_\S+ like Mac OS X/.test(navigator.userAgent)
-    //&& !/\b11_\S+ like Mac OS X/.test(navigator.userAgent)
+    // For iOS 11
+    // !/\b10_\S+ like Mac OS X/.test(navigator.userAgent)
+     !/\b11_\S+ like Mac OS X/.test(navigator.userAgent)
 )
 {
     // #i_can_haz_buttloop
@@ -20,7 +21,7 @@ if(
         var center = document.createElement('div');
         center.className = 'center';
         center.appendChild(document.createElement('h1')).textContent = 'Hello from the NSA!';
-        center.appendChild(document.createElement('h2')).textContent = "Unfortunately this spyware is only compatible with iOS 10. You're not on that version, so don't try it. At all. It will break something. Seriously. Forget we said anything.";
+        center.appendChild(document.createElement('h2')).textContent = "Unfortunately this spyware is only compatible with iOS 11. You're not on that version, so don't try it. At all. It will break something. Seriously. Forget we said anything.";
         body.appendChild(center);
         body.className = 'incompatible';
 
