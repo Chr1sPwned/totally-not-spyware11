@@ -39,6 +39,7 @@ The issue is that the values that everything depends on have changed hundreds of
 - Everyone credited for the [DoubleH3lix](https://github.com/Siguza/doubleH3lix) and [Meridian](https://github.com/PsychoTea/MeridianJB) jailbreaks.
 
 ## TODO (iOS 11) - Chr1sPwned
-- Fix whatever is broken
+- Fix whatever is broken -
+* Patchfinder needs to be updated for iOS 11 kernelcache restrictions
 - test test test
 - Release?
