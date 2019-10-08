@@ -445,7 +445,7 @@ static void *kernel_mh = 0;
 static addr_t kernel_delta = 0;
 
 int
-init_patchfinder(const char *filename)
+init_patchfinder(addr_t base, const char *filename)
 {
     size_t rv;
     uint8_t buf[0x4000];
