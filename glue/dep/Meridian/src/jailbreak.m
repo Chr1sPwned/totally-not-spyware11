@@ -75,7 +75,7 @@ int makeShitHappen() {
     }
 
     // set up stuff
-    init_patchfinder(NULL);
+    init_patchfinder(kernel_base, NULL);
     ret = init_amfi();
     if (ret != 0) {
         FAIL("failed to initialize amfi methods :/");
