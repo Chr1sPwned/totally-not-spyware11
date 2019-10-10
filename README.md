@@ -1,3 +1,8 @@
+# Discontinued
+Please go to www.github.com/Chr1sPwned/pwnedOS11 for iOS 11 Safari Jailbreak work
+
+
+
 # TotallyNotSpyware
 
 This program is definitely not spyware.  
