@@ -29,15 +29,6 @@ struct trust_chain {
 int init_amfi(void);
 int inject_trust(const char *path);
 
-void *put_dick_in_macho(const char *path, uint64_t file_off);
-const uint8_t *find_code_signature(img_info_t *info, uint32_t *cs_size);
-int find_best_codedir(const void *csblob, uint32_t blob_size, const CS_CodeDirectory **chosen_cd);
-unsigned int hash_rank(const CS_CodeDirectory *cd);
-int hash_code_directory(const CS_CodeDirectory *directory, uint8_t hash[CS_CDHASH_LEN]);
-const char *get_hash_name(uint8_t hash_type);
-int open_img(img_info_t* info);
-void close_img(img_info_t* info);
-
 
 // Not fully sure if any of ther other things in here is needed for supports ios 11, I'll check out later.
 #ifndef apfs_util_h
