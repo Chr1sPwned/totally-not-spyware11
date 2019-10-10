@@ -91,7 +91,7 @@ uint8_t *getCodeDirectory(const char* name) {
     return NULL;
 }
 
-void inject_trusts(int pathc, const char *paths[]) {
+void inject_trust(int pathc, const char *paths[]) {
     printf("Injecting into trust cache...\n");
     
     static uint64_t tc = 0;
