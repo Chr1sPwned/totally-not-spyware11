@@ -1,5 +1,5 @@
 # Discontinued
-Please go to www.github.com/Chr1sPwned/pwnedOS11 for iOS 11 Safari Jailbreak work
+Please go to www.github.com/Chr1sPwned/pwnedOS11 for iOS 11-12 Safari Jailbreak work
 
 
 
